@@ -1,0 +1,18 @@
+{
+  "name": "property-analyser",
+  "version": "1.0.0",
+  "description": "Property investment analysis platform",
+  "type": "module",
+  "scripts": {
+    "dev": "netlify dev",
+    "build": "echo 'No build step required'",
+    "migrate": "node scripts/migrate.js"
+  },
+  "dependencies": {
+    "@netlify/functions": "*",
+    "@netlify/neon": "*"
+  },
+  "devDependencies": {
+    "@types/node": "*"
+  }
+}
