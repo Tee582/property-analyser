@@ -5,14 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "netlify dev",
-    "build": "echo 'No build step required'",
-    "migrate": "node scripts/migrate.js"
+    "build": "echo 'No build step required'"
   },
   "dependencies": {
-    "@netlify/functions": "*",
-    "@netlify/neon": "*"
-  },
-  "devDependencies": {
-    "@types/node": "*"
+    "@netlify/blobs": "*",
+    "@netlify/functions": "*"
   }
 }
